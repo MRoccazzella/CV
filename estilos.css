@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Inconsolata&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #9e8d77;
+    font-family: 'Inconsolata', monospace;
+} 
+.homeContainer{
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+}
+.homeUno{
+    width: 35%;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+.homeDos{
+    width: 65%;
+    height: 100%;
+    text-align: center;    
+}
+.fotoPerfil{
+    width: 300px;
+    height: 300px;
+border-radius: 5%;
+}
+.h1Nombre{
+    font-size: 4em;
+padding-top: 120px;
+}
+.h2Sub{
+    font-size: 2em;
+
+}
+.linkContainer{
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-around;
+     padding-top: 20vh;
+     text-align: center;
+}
+.seccionesLinkContainer{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    text-align: center;
+}
+.link{
+    width: min-content;
+
+}
+.link:hover{transform: scale(1.10); transition: all 0.5s;}
+
+h3{
+    color: #583D34;
+    width: min-content;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    width: min-content;
+}
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 5;
+}
+.datosContainer{
+    width: 100vw;
+    height: 75vh;
+    text-align: center;
+}
+.datosTitle{
+    font-size: 2.5em;
+    padding-bottom: 25vh;
+}
+.datosText{
+    font-size: 1.5em;
+}
+.expContainer{
+    width: 100vw;
+    height: 75vh;
+    text-align: center;
+}
+.expTitle{
+    padding-bottom: 100px;
+    font-size: 2.5em;
+
+}
+.exp1Title{
+    color: black;
+    width: 100%;
+    font-size: 1.2em;
+}
+.exp{
+    text-align: start;
+    padding-bottom: 50px;
+    padding-left: 10vw;
+
+}
+.educacionContainer{
+    width: 100vw;
+    height: 75vh;
+    text-align: center;
+}
+.skillsContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.skillsTitle{
+    color: black;
+    width: 100%;
+    font-size: 1.4em;
+    text-decoration: underline;
+    
+}
