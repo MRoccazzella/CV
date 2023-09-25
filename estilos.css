@@ -150,7 +150,7 @@ footer{
 }
 .expContainer{
     width: 100vw;
-    height: 75vh;
+    height: max-content;
     text-align: center;
 }
 .expTitle{
@@ -169,6 +169,7 @@ footer{
     padding-left: 10vw;
 
 }
+
 @media screen and (max-width: 450px)  {
     .expContainer{
         height: max-content;
@@ -182,8 +183,9 @@ footer{
 }
 .educacionContainer{
     width: 100vw;
-    height: 75vh;
+    height: max-content;
     text-align: center;
+    padding-bottom: 10vh;
 }
 @media screen and (max-width: 450px)  {
     .educacionContainer{
@@ -194,6 +196,9 @@ footer{
         font-size: 0.8em;
     }
     .exp1Title{
+        text-align: center;
+    }
+    .responsiveEd{
         text-align: start;
     }
 }
