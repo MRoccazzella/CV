@@ -11,6 +11,16 @@
     width: 100vw;
     height: 40vh;
 }
+@media screen and (max-width: 450px)  {
+    .homeContainer{
+        flex-direction: column;
+        height: max-content;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+    }
+    
+}
 .homeUno{
     width: 35%;
     height: 100%;
@@ -36,13 +46,47 @@ padding-top: 120px;
     font-size: 2em;
 
 }
+@media screen and (max-width: 450px)  {
+    .homeUno{
+        width: 100vw;
+        height: auto;
+        padding: 50px 0 0 0;
+        
+    }
+    .fotoPerfil{
+
+        width: 75vw;
+        height: auto;
+        margin: 0;
+    }
+    .homeDos{
+        width: 100vw;
+    }
+    .linkContainer{
+        flex-direction: column;
+        padding-bottom: 20vh;
+        text-align: center;
+        justify-content: center;
+    }
+    .link{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        align-items: center;
+    }
+    .link a h3{
+        width: 100vw;
+    }
+}
 .linkContainer{
     width: 100vw;
     height: 55vh;
     display: flex;
     justify-content: space-around;
-     padding-top: 20vh;
-     text-align: center;
+    padding-top: 20vh;
+    text-align: center;
 }
 .seccionesLinkContainer{
     width: 100vw;
@@ -86,6 +130,24 @@ footer{
 .datosText{
     font-size: 1.5em;
 }
+@media screen and (max-width: 450px)  {
+    .seccionesLinkContainer{
+        flex-direction: column;
+        padding-bottom: 20vw;
+        height: max-content;
+    }
+    .datosTitle{
+        padding-bottom: 10vh;
+    }
+    .datosContainer{
+        padding-bottom: 5vh;
+        width: 100vw;
+        padding: 0 15px;
+    }
+    .datosText{
+        font-size: 1em;
+    }
+}
 .expContainer{
     width: 100vw;
     height: 75vh;
@@ -107,10 +169,33 @@ footer{
     padding-left: 10vw;
 
 }
+@media screen and (max-width: 450px)  {
+    .expContainer{
+        height: max-content;
+        padding-bottom: 10vh;
+    }
+    .exp{
+        font-size: 0.8em;
+        padding: 0 5vw 10vh 5vw;
+
+    }
+}
 .educacionContainer{
     width: 100vw;
     height: 75vh;
     text-align: center;
+}
+@media screen and (max-width: 450px)  {
+    .educacionContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5vw 10vh 5vw;
+        font-size: 0.8em;
+    }
+    .exp1Title{
+        text-align: start;
+    }
 }
 .skillsContainer{
     display: flex;
@@ -122,4 +207,14 @@ footer{
     font-size: 1.4em;
     text-decoration: underline;
     
+}
+@media screen and (max-width: 450px)  {
+    .skillsContainer{
+        flex-direction: column;
+
+    }
+    .skillsContainer div{
+        padding-bottom: 50px;
+        font-size: 1.2em;
+    }
 }
