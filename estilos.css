@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai&family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Inconsolata&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Inconsolata&family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Almarai&family=Inconsolata&family=Montserrat&family=Roboto&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -82,12 +85,13 @@ padding-top: 120px;
 }
 .linkContainer{
     width: 100vw;
-    height: 55vh;
+    height: 45vh;
     display: flex;
     justify-content: space-around;
     padding-top: 20vh;
     text-align: center;
 }
+
 .seccionesLinkContainer{
     width: 100vw;
     height: 20vh;
@@ -142,7 +146,6 @@ footer{
     .datosContainer{
         padding-bottom: 5vh;
         width: 100vw;
-        padding: 0 15px;
     }
     .datosText{
         font-size: 1em;
@@ -222,4 +225,92 @@ footer{
         padding-bottom: 50px;
         font-size: 1.2em;
     }
+}
+#show-popup{
+    font-size: 1.5em;
+}
+#popup{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 30%;
+    padding-bottom: 50px;
+    
+}
+.popup-list{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+.popup-element{
+    width: auto;
+}
+.redes-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+}
+#close{
+    width: 25px;
+    font-size:1.5em;
+    background-color: black;
+    color: #583D34;
+    border: 0px;
+    border-bottom-left-radius: 5px;
+}
+.fontContainer{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.fontOptions{
+    padding-top: 20px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.buttonRoboto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+.buttonAgbalumo{
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 1.2em;
+
+}
+.buttonMontserrat{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+
+
+}
+@media screen and (max-width: 450px){
+    #popup{
+        width: 90vw;
+        margin: 0;
+        margin-left: 5vw;
+        justify-content: center;
+    }
+    .fontOptions{
+        gap: 20px;
+    }
+    .buttonRoboto{
+        font-size: 1.1em;
+    }
+    .buttonAgbalumo{
+        font-size: 1.1em;
+    
+    }
+    .buttonMontserrat{
+        font-size: 1.1em;
+    }
+    
 }
